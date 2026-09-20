@@ -1,8 +1,8 @@
 package factorymethod;
 
-public class BalloonBarrack extends Barracks{
+public class BarbarianBarrack extends Barracks{
     @Override
     protected Troop trainTroop(){
-        return new Balloon();
+        return new Barbarian();
     }
 }
