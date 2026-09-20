@@ -1,4 +1,10 @@
 package abstractfactory.builderbase;
 
-public class BuilderBaseDefence {
+import abstractfactory.Defence;
+
+public class BuilderBaseDefence implements Defence {
+    @Override
+    public void defend(){
+        System.out.println("The Crusher smashes down, damaging every troop underneath.");
+    }
 }
